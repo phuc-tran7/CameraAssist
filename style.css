@@ -1,0 +1,450 @@
+/* Centering the text for the title and description */
+* {
+     /* Replace "Arimo" with your desired font */
+
+}
+
+h1, h3, h4, p {
+    text-align: center; /* Centers the text horizontally */
+    font-family: 'Fredoka One', sans-serif;
+}
+
+
+body {
+    background-color: #283225; /* Dark gray/charcoal color */
+    color: #fbefdac7; /* Optional: Set text color to white for contrast */
+}
+
+/* Center the container */
+.index .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh; /* Adjust this value to move it lower or higher */
+}
+
+/* Styling the button */
+.index .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #555; /* Dark gray */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Button hover effect */
+.index .button:hover {
+    background-color: #777; /* Lighter gray on hover */
+}
+
+.index .BW-image{
+    display: block;       /* Makes the image a block element */
+    margin: 0 auto;       /* Centers the image horizontally */
+    width: 350px; /* Adjust the width as needed */
+    height: auto;
+    align-items: center;
+    border-radius: 7px; 
+}
+
+.index .BW-image:hover{
+    transform: scale(1.5);
+    transition:.8s;
+}
+
+/********************************LearnBasic page*************************/
+
+.learnbasic .car-image {
+    display: block;       /* Makes the image a block element */
+    margin: 0 auto;       /* Centers the image horizontally */
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    align-items: center;
+    border-radius: 7px; 
+}
+.learnbasic .car-image:hover{
+    transform: scale(1.3);
+    transition:.8s;
+}
+.learnbasic .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh; /* Adjust this value to move it lower or higher */
+}
+/* Styling the button */
+.learnbasic .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #555; /* Dark gray */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    text-align: center;
+}
+/* Button hover effect */
+.learnbasic .button:hover {
+    background-color: #777; /* Lighter gray on hover */
+}
+
+
+/*******DEFINITIONS PAGE************************************/
+
+/* location of the container ish */
+.ISOcontainer{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: left;
+padding-left: 200px;
+
+}
+
+
+.boxOne{
+    /*height: 350px;*/
+   /* width: 350px;*/
+    box-sizing: border-box ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    height:200px;
+    overflow: hidden;
+    transition: .8s;
+
+}
+
+/*when hover over the height of box changes*/
+.boxOne:hover{
+height:400px;
+
+}
+/*base for top of the box*/
+.boxOneTop{
+    /*border: 4px solid rgba(96, 47, 20, 0.697);*/
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color:#fff;
+    align-items: center;
+    height: 200px;
+    width:  300px;
+
+}
+
+.boxOneTop > h1{
+    font-size: 24px;
+}
+
+/*base for the bottom of container*/
+.boxOneBottom{
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    background:#c2ab8f;
+    
+}
+
+/*details to the words of bottom part of box*/
+.boxOneBottom > p{
+    color:rgba(96, 47, 20, 0.697);
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: left;
+
+}
+
+/*details for link*/
+.boxOneBottom > a{
+    background: #c2ab8f;
+    color:rgba(96, 47, 20, 0.697);
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+/*when hover, the color of the top half changes to same color as 2nd half*/
+ .boxOne:hover > .boxOneTop {
+    background: #c2ab8f;
+    color:rgba(96, 47, 20, 0.697);
+} 
+
+
+.apertureContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -855px; /* Adjust to move it higher */
+
+    }
+    
+    
+    .boxTwo{
+        /*height: 350px;*/
+       /* width: 350px;*/
+        box-sizing: border-box ;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        height:200px;
+        overflow: hidden;
+        transition: .8s;
+    
+    }
+    
+    /*when hover over the height of box changes*/
+    .boxTwo:hover{
+    height:500px;
+    
+    }
+    /*base for top of the box*/
+    .boxTwoTop{
+        /*border: 4px solid rgba(96, 47, 20, 0.697);*/
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color:#fff;
+        align-items: center;
+        height: 200px;
+        width:  300px;
+    
+    }
+    
+    .boxTwoTop > h1{
+        font-size: 24px;
+    }
+    
+    /*base for the bottom of container*/
+    .boxTwoBottom{
+        box-sizing: border-box;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        background:#c2ab8f;
+        
+    }
+    
+    /*details to the words of bottom part of box*/
+    .boxTwoBottom > p{
+        color:rgba(96, 47, 20, 0.697);
+        font-size: 16px;
+        line-height: 1.3em;
+        text-align: left;
+    
+    }
+    
+    /*details for link*/
+    .boxTwoBottom > a{
+        background: #c2ab8f;
+        color:rgba(96, 47, 20, 0.697);
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 16px;
+    }
+    
+    /*when hover, the color of the top half changes to same color as 2nd half*/
+     .boxTwo:hover > .boxTwoTop {
+        background: #c2ab8f;
+        color:rgba(96, 47, 20, 0.697);
+    } 
+
+
+/* location of the container ish */
+.shutterSpeedContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 200px;
+    margin-top: -858px; /* Adjust to move it higher */
+    }
+    
+    
+    .boxThree{
+        /*height: 350px;*/
+       /* width: 350px;*/
+        box-sizing: border-box ;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        height:200px;
+        overflow: hidden;
+        transition: .8s;
+    
+    }
+    
+    /*when hover over the height of box changes*/
+    .boxThree:hover{
+    height:600px;
+    
+    }
+    /*base for top of the box*/
+    .boxThreeTop{
+        /*border: 4px solid rgba(96, 47, 20, 0.697);*/
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color:#fff;
+        align-items: center;
+        height: 200px;
+        width:  300px;
+    
+    }
+    
+    .boxThreeTop > h1{
+        font-size: 24px;
+    }
+    
+    /*base for the bottom of container*/
+    .boxThreeBottom{
+        box-sizing: border-box;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        background:#c2ab8f;
+        
+    }
+    
+    /*details to the words of bottom part of box*/
+    .boxThreeBottom > p{
+        color:rgba(96, 47, 20, 0.697);
+        font-size: 16px;
+        line-height: 1.3em;
+        text-align: left;
+    
+    }
+    
+    /*details for link*/
+    .boxThreeBottom > a{
+        background: #c2ab8f;
+        color:rgba(96, 47, 20, 0.697);
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 16px;
+
+    }
+    
+    /*when hover, the color of the top half changes to same color as 2nd half*/
+     .boxThree:hover > .boxThreeTop {
+        background: #c2ab8f;
+        color:rgba(96, 47, 20, 0.697);
+    } 
+    
+    
+     .nextButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* min-height: -20vh; Adjust this value to move it lower or higher */
+        transform: translateY(-100px);
+    }
+    /* Styling the button */
+     .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #555; /* Dark gray */
+        color: #fff; /* White text */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+/****************OPTIONS HTML PAGE**********************/
+
+
+
+ .theInput {
+    display: block; /* Makes centering easier */
+    margin: 20px auto; /* Centers the input horizontally */
+    padding: 15px 20px; /* Increases padding to make it bigger */
+    font-size: 24px; /* Adjust font size to make the text inside bigger */
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limits the input width on larger screens */
+    border-radius: 25px; /* Rounds the corners */
+    border: 2px solid #ccc; /* Adds a subtle border */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    background-color:rgb(249, 237, 222);
+    
+
+
+}
+
+
+/* Optional: Style on focus for a better user experience */
+ .theInput:focus {
+    border-color: #555; /* Changes border color when focused */
+    outline: none; /* Removes default outline */
+    background-color: antiquewhite;
+}
+ .continueButton {
+    display: block;
+
+    padding: 20px 30px; /* Increases padding to make it bigger */
+    font-size: 24px; /* Adjust font size to make the text inside bigger */
+    border-radius: 25px; /* Rounds the corners */
+    border: 2px solid #6c6c6c;; /* Adds a subtle border */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    background-color: #555;;
+    transform: translateX(675px);
+    color:#dbdbdb
+    
+}
+
+ .question{
+    color:#dbdbdb;
+
+}
+
+
+/****output page****/
+
+.resultButton {
+    display: block;
+
+    padding: 20px 30px; /* Increases padding to make it bigger */
+    font-size: 24px; /* Adjust font size to make the text inside bigger */
+    border-radius: 25px; /* Rounds the corners */
+    border: 2px solid #6c6c6c;; /* Adds a subtle border */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    background-color: #555;;
+    transform: translateX(675px);
+    margin-top: 200px;
+    color:#dbdbdb
+
+}
+
+.resultButton:hover{
+    background-color: #777;
+}
+
+.finalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh; /* Adjust this value to move it lower or higher */
+}
+ .finalOutput{
+    text-align: left;
+    font-size: 24px;
+      max-width: 800px;
+} 
