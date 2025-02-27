@@ -90,6 +90,7 @@ body {
     padding: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: rgba(96, 32, 32, 0.2);
 }
 .learnbasic .button:hover {
     background-color: #777; /* Lighter gray on hover */
