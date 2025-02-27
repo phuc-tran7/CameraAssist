@@ -1,9 +1,3 @@
-/* Centering the text for the title and description */
-* {
-     /* Replace "Arimo" with your desired font */
-
-}
-
 h1, h3, h4, p {
     text-align: center; /* Centers the text horizontally */
     font-family: 'Fredoka One', sans-serif;
@@ -14,28 +8,56 @@ body {
     background-color: #283225; /* Dark gray/charcoal color */
     color: #fbefdac7; /* Optional: Set text color to white for contrast */
 }
+.index{
 
-/* Center the container */
-.index .center-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 20vh; /* Adjust this value to move it lower or higher */
-}
+    flex-direction: column;
+    gap: 20px;
+   
 
+
+}
+/* Center the container */
+
+
+.border{
+    border: 10px groove rgba(96, 32, 32, 0.434);
+    gap: 20px;
+
+
+   padding-bottom: 5rem;
+   padding: 5rem;
+
+
+   display: flex;
+   flex-direction: column;
+   align-items: center; /* Centers children horizontally */
+   justify-content: center; /* Centers children vertically */
+   padding: 20px;
+   margin-top: 50px;
+   margin-bottom: 3rem;
+   background-color: rgba(96, 32, 32, 0.2);
+}
 /* Styling the button */
 .index .button {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #555; /* Dark gray */
-    color: #fff; /* White text */
+    margin-top: 15px;
+    background-color: rgba(96, 32, 32, 0.434); /* Dark gray */
+    color:#fbefdac7; /* White text */
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Rounded corners */
+    border: 1.25px groove rgba(76, 25, 25, 0.434);
+
     font-weight: bold;
     text-align: center;
+    box-shadow: .5em .25em 1em rgb(55, 55, 55);
+    
+
 }
+
 
 /* Button hover effect */
 .index .button:hover {
@@ -51,50 +73,45 @@ body {
     border-radius: 7px; 
 }
 
-.index .BW-image:hover{
-    transform: scale(1.5);
-    transition:.8s;
-}
 
 /********************************LearnBasic page*************************/
-
-.learnbasic .car-image {
-    display: block;       /* Makes the image a block element */
-    margin: 0 auto;       /* Centers the image horizontally */
-    width: 300px; /* Adjust the width as needed */
-    height: auto;
-    align-items: center;
-    border-radius: 7px; 
-}
-.learnbasic .car-image:hover{
-    transform: scale(1.3);
-    transition:.8s;
-}
-.learnbasic .center-container {
+.learnbasic{
+    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 10vh; /* Adjust this value to move it lower or higher */
-    transform: translateX(-110px);
-}
-/* Styling the button */
-.learnbasic .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #555; /* Dark gray */
-    color: #fff; /* White text */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    font-weight: bold;
-    text-align: center;
+    flex-direction: column;
+   
+
 
 }
-/* Button hover effect */
+.learnbasic .learnbasicborder{
+    border: 10px groove rgba(96, 32, 32, 0.434);
+    padding: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 .learnbasic .button:hover {
     background-color: #777; /* Lighter gray on hover */
 }
+
+.learnbasic .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: rgba(96, 32, 32, 0.434); /* Dark gray */
+    color:#fbefdac7; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    border: 1.25px groove rgba(76, 25, 25, 0.434);
+
+    font-weight: bold;
+    text-align: center;
+    box-shadow: .5em .25em 1em rgb(55, 55, 55);
+    
+
+}
+
 
 
 /*******DEFINITIONS PAGE************************************/
@@ -368,11 +385,118 @@ height:400px;
         font-weight: bold;
         text-align: center;
     }
+    .nextButton .button:hover {
+        background-color: #777; /* Lighter gray on hover */
+    }
+    
+    .nextButton .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 15px;
+        background-color: #283225;
+        color:#fbefdac7; /* White text */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        border: 1.25px groove #283225;
+    
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 
+        
+    
+    }
+    
 
 /****************OPTIONS HTML PAGE**********************/
 
+.optionsborder{
+    border: 10px groove rgba(96, 32, 32, 0.434);
+    
 
+
+    padding-bottom: 5rem;
+    padding: 5rem;
+ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgba(96, 32, 32, 0.2);
+
+
+
+}
+.options{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+
+
+.optionTwoBorder{
+    border: 10px groove rgba(96, 32, 32, 0.434);
+
+
+    padding-bottom: 5rem;
+    padding: 5rem;
+ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    background-color: rgba(96, 32, 32, 0.2);
+
+
+
+}
+.optionsThreeBorder{
+    border: 10px groove rgba(96, 32, 32, 0.434);
+
+
+    padding-bottom: 5rem;
+    padding: 5rem;
+ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    background-color: rgba(96, 32, 32, 0.2);
+
+
+
+}
+.optionsThree{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+.optionTwo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
 
  .theInput {
     display: block; /* Makes centering easier */
@@ -390,7 +514,6 @@ height:400px;
 
 }
 
-
 /* Optional: Style on focus for a better user experience */
  .theInput:focus {
     border-color: #555; /* Changes border color when focused */
@@ -398,16 +521,30 @@ height:400px;
     background-color: antiquewhite;
 }
  .continueButton {
-    display: block;
+    width: auto;
+
 
     padding: 20px 30px; /* Increases padding to make it bigger */
     font-size: 24px; /* Adjust font size to make the text inside bigger */
     border-radius: 25px; /* Rounds the corners */
-    border: 2px solid #6c6c6c;; /* Adds a subtle border */
+    border: 2px solid #8a8a8a;; /* Adds a subtle border */
     box-sizing: border-box; /* Ensures padding doesn’t affect width */
     background-color: #555;;
-    transform: translateX(675px);
+
+    color:#dbdbdb;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    
+    
+}
+.continueButton:hover {
+
+
+
+    background-color:  rgb(69, 64, 57);
+
     color:#dbdbdb
+
+
     
 }
 
@@ -438,15 +575,26 @@ height:400px;
     background-color: #777;
 }
 
+
+
+
+
+
 .finalContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 10vh; /* Adjust this value to move it lower or higher */
+
+
+
 }
  .finalOutput{
     text-align: left;
     font-size: 24px;
       max-width: 800px;
+
 } 
+
+

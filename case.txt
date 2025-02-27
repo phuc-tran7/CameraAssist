@@ -1,0 +1,6 @@
+chat bot
+respond to uders problems
+determine users problem before they r=tye anythiung in
+
+task: chekc history, look at past transactions, from when they fiirst got into the oafe
+
